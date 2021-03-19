@@ -82,7 +82,7 @@
 }
 
 .panel-implemento{
-    background-color: black;
+    background-color: #4d4e0d;
 }
 .panel-description-content{
     width: 50%;
@@ -139,4 +139,41 @@
 }
 .cards-img img:active{
     transform: scale(1);
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff700;
+    height: 100px;
+}
+footer label {
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    margin-top: 50px;
+}
+.info {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info h6{
+    font-family: Arial;
+    width: 50%;
+}
 }
