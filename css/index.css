@@ -74,16 +74,22 @@
     align-items: center;
     flex-direction: row;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .panel-apicultura{
     background-color: yellow;
     box-shadow: 0px 1px 8px 8px rgb(58 58 58 / 69%);
 }
+
+.panel-implemento{
+    background-color: black;
+}
 .panel-description-content{
     width: 50%;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .panel-title{
     color: #000;
@@ -130,4 +136,7 @@
 }
 .cards-img img:hover{
     transform: scale(1.05);
+}
+.cards-img img:active{
+    transform: scale(1);
 }
