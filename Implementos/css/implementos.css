@@ -97,6 +97,7 @@
 .panel-text{
     font-family: Arial;
     color: #000;
+    text-align: justify;
 }
 .panel-img{
     width: 50%;
